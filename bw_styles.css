@@ -1,0 +1,84 @@
+label.wide{
+	width: 250px;
+	display: inline-block;
+}
+
+#toggle-view {
+    list-style:none;    
+    font-family:arial;
+    font-size:11px;
+    margin:0;
+    padding:0;
+    width:300px;
+}
+ 
+.bw_more_stats .title{
+	display: block;
+	border-bottom:1px solid #ccc;
+	padding: 0 0 5px 0;
+	font-weight: bold;
+}
+.bw_more_stats {
+	position:relative;
+	cursor:pointer;
+}
+
+.bw_more_stats .toggle  {
+	position:absolute;
+	right:5px; top:0;
+	color:#ccc;
+	font-size:13px;
+}
+
+.bw_more_stats .bw_toggle_panel {
+	display:none;
+} 
+.bw_gauge_flesch,.bw_gauge{
+	display: block;
+	text-align: center;
+	margin: 0 auto;	
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 60px;
+	width: 110px;
+	line-height: 91px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.bw_gauge_flesch{
+	background-image: url('score-sprite-flesch.png');
+}
+.bw_gauge{
+	background-image: url('score-sprite.png');
+}
+
+.bw_gauge_10{ background-position: 0 0;}
+.bw_gauge_20{ background-position: 0 -132px;}
+.bw_gauge_30{ background-position: 0 -264px;}
+.bw_gauge_40{ background-position: 0 -396px;}
+.bw_gauge_50{ background-position: 0 -528px;}
+.bw_gauge_60{ background-position: -335px 0;}
+.bw_gauge_70{ background-position: -335px -132px;}
+.bw_gauge_80{ background-position: -335px -264px;}
+.bw_gauge_90{ background-position: -335px -396px;}
+.bw_gauge_100{ background-position: -335px -528px;}
+
+.bw_scoring_method{
+	display: block;
+	text-align: center;
+	margin: 10px;
+	color: #888;
+}
+.bw_target_score{
+	display: block;
+
+	text-align: center;
+	margin: 10px;
+	color: #888;
+}
+.bw_target_not_met{
+	color: #990000;
+}
+.bw_target_met{
+	color: #228B22;
+}
